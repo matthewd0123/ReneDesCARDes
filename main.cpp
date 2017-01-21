@@ -9,8 +9,8 @@ Grace Milton
 Roann Yanes 
 */
 
-#include <iostream>
-
+#include <iostream>     //Text input/output
+using namespace std;    //std namespace
 int main(int argc, char* argv[]){
   cout << "Welcome to the Card Program!" << endl;
   cout << "Are you ready to play Rummy?" << endl;
