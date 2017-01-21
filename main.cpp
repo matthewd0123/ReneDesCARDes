@@ -13,6 +13,8 @@ Roann Yanes
 
 int main(int argc, char* argv[]){
   cout << "Welcome to the Card Program!" << endl;
-  
+  cout << "Are you ready to play Rummy?" << endl;
+  int ready_to_play;
+  cin >> ready_to_play;
   return 0;
 }
