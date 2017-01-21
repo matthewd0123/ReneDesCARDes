@@ -6,10 +6,13 @@ class Cards {
 	public:
 		Cards();
 		~Cards();
-		void setSuit(char);
+		void setSuit();
 		void setKind();
+		char getSuit();
+		char getKind();
+		void drawCard();
 
 	private:
 		char suit[];
 		char kind[];
-		char [][]
+
