@@ -3,7 +3,7 @@ using namespace std;
 #include "cards.h"
 
 Cards::Cards() 
-{ suit = 1; kind = 1; }
+{ suit = 1; kind = '1'; }
 
 Cards::~Cards() { }
 
@@ -19,7 +19,7 @@ void Cards::setSuit(int s)
 void Cards::setKind(char k) 
 { kind = k; }
 
-void drawCard() 
+void Cards::drawCard() 
 {
    for (int i = 0; i <= 11; i++) {
       cout << "-";

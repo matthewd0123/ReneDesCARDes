@@ -20,6 +20,6 @@ int main(int argc, char* argv[]){
   cin >> ready_to_play;
 
   Cards my_cards;
-  drawCard();
+  my_cards.drawCard();
   return 0;
 }
