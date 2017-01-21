@@ -15,3 +15,4 @@ class Cards {
 		int suit;
 		char kind;
 
+};
